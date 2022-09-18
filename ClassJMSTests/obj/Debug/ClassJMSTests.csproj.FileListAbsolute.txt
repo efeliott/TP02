@@ -10,3 +10,5 @@ C:\Users\sophie\Desktop\Annee2019-2020\SLAM2\TD_TP\09TP\SolutionJMS\ClassJMSTest
 C:\Users\sophie\Desktop\Annee2019-2020\SLAM2\TD_TP\09TP\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.dll
 C:\Users\sophie\Desktop\Annee2019-2020\SLAM2\TD_TP\09TP\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.pdb
 D:\Annee2020-2021\B2Conception et developpement applications\TP\06DM\09TP\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache
+C:\Users\Eliott\TP02\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.AssemblyReference.cache
+C:\Users\Eliott\TP02\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache

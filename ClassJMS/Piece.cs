@@ -11,17 +11,32 @@ namespace ClassJMS
         #region attributs privés
         private int numSerie;       // numéro de série
         private string libelle;     // libellé de la pièce
-        private int nbHeures;       // nombre d'heures de fonctionnement
+        protected int nbHeures;       // nombre d'heures de fonctionnement
         #endregion
 
         #region constructeur
-        
+        public Piece(int unNumero, string unLibelle, int unNombre)
+        {
+            this.numSerie = unNumero;
+            this.libelle = unLibelle;
+            this.nbHeures = unNombre;
+        }
         #endregion
 
         #region méthodes
         public virtual bool AControler()
         {
             return false;
+        }
+
+        public int GetNumSerie()
+        {
+            return this.numSerie;
+        }
+
+        public virtual string ObtenirInfos()
+        {
+            return this.numSerie.ToString() + " - " + this.libelle;
         }
         #endregion
     }
