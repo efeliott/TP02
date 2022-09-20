@@ -29,15 +29,15 @@ namespace ClassJMS
 
         public int CalculerDureeAgrement()
         {
-            return this.dateAgrement.Year - DateTime.Now.Year;
+            return  DateTime.Now.Year - this.dateAgrement.Year;
         }
 
         public override bool AControler()
         {
-            if(DateTime.Now.Date < this.dateAgrement.Date && DateTime.Now.Date < this.dateAgrement.Date.AddYears(-2)) 
-                return false;
-            else
+            if(CalculerDureeAgrement()<2)
                 return true;
+            else
+                return false;
         }
 
         public override string ObtenirInfos()

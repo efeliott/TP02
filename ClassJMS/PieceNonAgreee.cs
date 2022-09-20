@@ -34,8 +34,12 @@ namespace ClassJMS
 
         public override bool AControler()
         {
-            if (this.seuil >= nbHeures)
+            if (this.seuil <= nbHeures && this.etat == "VERT")
+            {
+                this.ChangerEtat("ORANGE");
                 return true;
+            }
+                
             else
                 return false;
         }

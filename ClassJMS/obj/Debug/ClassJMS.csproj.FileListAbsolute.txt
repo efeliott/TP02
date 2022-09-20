@@ -11,3 +11,9 @@ C:\Users\Eliott\TP02\ClassJMS\obj\Debug\ClassJMS.csproj.AssemblyReference.cache
 C:\Users\Eliott\TP02\ClassJMS\obj\Debug\ClassJMS.csproj.CoreCompileInputs.cache
 C:\Users\Eliott\TP02\ClassJMS\obj\Debug\ClassJMS.dll
 C:\Users\Eliott\TP02\ClassJMS\obj\Debug\ClassJMS.pdb
+C:\Users\fertille\TP02\ClassJMS\bin\Debug\ClassJMS.dll
+C:\Users\fertille\TP02\ClassJMS\bin\Debug\ClassJMS.pdb
+C:\Users\fertille\TP02\ClassJMS\obj\Debug\ClassJMS.csproj.AssemblyReference.cache
+C:\Users\fertille\TP02\ClassJMS\obj\Debug\ClassJMS.csproj.CoreCompileInputs.cache
+C:\Users\fertille\TP02\ClassJMS\obj\Debug\ClassJMS.dll
+C:\Users\fertille\TP02\ClassJMS\obj\Debug\ClassJMS.pdb
