@@ -13,13 +13,16 @@ namespace ClassJMS
         #endregion
 
         #region constructeur
-        
+        public Magasin(List<Piece>unePiece)
+        {
+            this.lesPieces = new List<Piece>(unePiece);
+        }
         #endregion
 
         #region méthodes
-       
-                
-                
+
+
+
         // Méthodes utiles pour les tests unitaires
         public List<Piece> GetLesPieces()
         {

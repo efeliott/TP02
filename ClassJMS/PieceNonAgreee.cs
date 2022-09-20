@@ -29,7 +29,7 @@ namespace ClassJMS
 
         public void ChangerEtat(string unEtat)
         {
-            this.etat = unEtat;
+            this.etat = unEtat.ToUpper();
         }
 
         public override bool AControler()
