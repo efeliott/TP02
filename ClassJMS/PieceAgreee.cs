@@ -34,7 +34,7 @@ namespace ClassJMS
 
         public override bool AControler()
         {
-            if(CalculerDureeAgrement()<2)
+            if(CalculerDureeAgrement()>2)
                 return true;
             else
                 return false;
@@ -42,7 +42,7 @@ namespace ClassJMS
 
         public override string ObtenirInfos()
         {
-            return base.ObtenirInfos() + "\nConstructeur : " + this.nomConstructeur + "\nDate Agrément : " + this.dateAgrement;
+            return base.ObtenirInfos() + "\nConstructeur : " + this.nomConstructeur + "\nDate Agrément : " + GetDateAgrement().ToShortDateString();
         }
 
         public DateTime GetDateAgrement()

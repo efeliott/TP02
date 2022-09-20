@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassJMS
 {
-    internal class PieceNonAgreee : Piece
+    public class PieceNonAgreee : Piece
     {
         #region attributs privés
         private string etat;       // etat de la piece
@@ -14,9 +14,9 @@ namespace ClassJMS
         #endregion
 
         #region constructeur
-        public PieceNonAgreee(int unNumero, string unLibelle, int unNombre, string unEtat, int unSeuil):base(unNumero, unLibelle, unNombre)
+        public PieceNonAgreee(int unNumero, string unLibelle, int unNombre, int unSeuil):base(unNumero, unLibelle, unNombre)
         {
-            this.etat = unEtat;
+            this.etat = "VERT";
             this.seuil = unSeuil;
         }
         #endregion
